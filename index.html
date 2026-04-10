@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Proz</title>
+    <script src="script.js" defer></script>
+    <link href="stylec.css" type="text/css" rel="stylesheet">
+    </head>
+
+<body>
+    <header>
+    <div class="logo">Education Proz</div>
+
+    <nav>
+        <a href="index.html">PAGINA INICIAL</a>
+        <a href="#contato">CONTATO</a>
+        <a href="quem somos.html">QUEM SOMOS</a>
+    </nav>
+
+    <div>
+        <span class="contact">(31) 99100-0704</span>
+        <a href="matricula.html" class="btn-matricula">MATRÍCULA-SE</a>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>O MELHOR LUGAR ONDE VOCÊ PODE FAZER O SEU CURSO!</h1>
+        <p>melhores cursos online para impulsionar sua carreira.</p>
+        <a href="#cursos" class="btn-cursos">VEJA NOSSOS CURSOS</a>
+    </div>
+
+
+   <div class="video">
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/hxWj3jFkyZE"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+</section>
+
+  
+  <section id="cursos" class="cursos">
+
+  <div class="container">
+    <h2>Nossos Cursos</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="Enfermagem.jpeg">
+        <div class="card-content">
+          <h3>Técnico em Enfermagem</h3>
+          <p>Prepare-se para salvar vidas! Domine na prática os principais procedimentos da área da saúde e construa uma carreira sólida como técnico em enfermagem.</p>
+          <ul>✔ Certificado reconhecido</ul>
+          <ul>✔ Aulas práticas</ul>
+          <ul>✔ Suporte ao aluno</ul>
+          <br>
+          <div class="card-buttons">
+            <a class="btn-outline" onclick="abrirModal('modal1')">Saiba mais</a>
+            <a href="matricula.html" class="btn-roxo">Matricular</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Desenvolvimento de sistemas.jpeg">
+        <div class="card-content">
+          <h3>Técnico em Desenvolvimento de Sistemas</h3>
+          <p>Entre no mundo da tecnologia e desenvolva sistemas, sites e aplicações modernas. 
+Um curso completo para quem quer trabalhar com programação e conquistar oportunidades na área de TI.</p>
+          <ul>✔ Certificado reconhecido</ul>
+          <ul>✔ Aulas práticas</ul>
+          <ul>✔ Suporte ao aluno</ul>
+          <br>
+          <div class="card-buttons">
+            <a class="btn-outline" onclick="abrirModal('modal2')">Saiba mais</a>
+            <a href="matricula.html" class="btn-roxo">Matricular</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Administração.jpeg">
+        <div class="card-content">
+          <h3>Técnico em Administração</h3>
+          <p>Aprenda a administrar negócios, liderar equipes e tomar decisões estratégicas. 
+Prepare-se para atuar em empresas e empreender com segurança e visão de mercado.</p>
+          <ul>✔ Certificado reconhecido</ul>
+          <ul>✔ Aulas práticas</ul>
+          <ul>✔ Suporte ao aluno</ul>
+          <br>
+          <div class="card-buttons">
+            <a class="btn-outline" onclick="abrirModal('modal3')">Saiba mais</a>
+            <a href="matricula.html" class="btn-roxo">Matricular</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<div class="top-bar-contato"></div>
+<br>
+
+<section id="contato" class="info-section">
+
+
+    <div class="map">
+   
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.5288894958685!2d-43.95623112525332!3d-19.817562334816195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa68ffffbdae3e9%3A0x48da578acf75fddf!2sProz%20Educa%C3%A7%C3%A3o%20-%20Venda%20Nova!5e0!3m2!1spt-BR!2sbr!4v1775797636241!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+
+
+    <div class="card">
+        <h3>Proz Venda Nova</h3>
+        <p>📍 R. Bernardo Ferreira da Cruz, 52 - São Pedro (Venda Nova), Belo Horizonte - MG</p>
+        <p>📞 (31) 99100-0704</p>
+        <p>✉️ contato@proseducation.com</p>
+        <br>
+        <a href="https://wa.me/5531991000704" class="btn-roxo" target="_blank"> FALE CONOSCO</a>
+    </div>
+</section>
+</section>
+
+<div class="modal" id="modal1">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal('modal1', event)">&times;</span>
+    <img src="Enfermagem.jpeg">
+    <br>
+    <h3>Técnico em Enfermagem</h3>
+    <br>
+    <p>O curso Técnico em Enfermagem forma profissionais capacitados para atuar na área da saúde com responsabilidade, ética e excelência. Com foco em aulas práticas, o aluno desenvolve habilidades essenciais para o cuidado com pacientes, atuação hospitalar e apoio em procedimentos clínicos. Ideal para quem deseja ingressar rapidamente no mercado de trabalho na área da saúde.</p>
+    <br>
+    <a href="matricula.html" class="btn-roxo">Fazer Pré-Matrícula</a>
+  </div>
+</div>
+
+<div class="modal" id="modal2">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal('modal2', event)">&times;</span>
+    <img src="Desenvolvimento de sistemas.jpeg">
+    <br>
+     <h3>Técnico em Desenvolvimento de Sistemas</h3>
+     <p>O curso Técnico em Desenvolvimento de Sistemas prepara o aluno para atuar na criação de softwares, aplicativos e soluções digitais. Com uma formação prática e atualizada, o estudante aprende lógica de programação, desenvolvimento web e tecnologias utilizadas pelo mercado. Uma excelente escolha para quem busca carreira na área de tecnologia.</p>
+     <a href="matricula.html" class="btn-roxo">Fazer Pré-Matrícula</a>
+  </div>
+</div>
+
+
+<div class="modal" id="modal3">
+  <div class="modal-content">
+  <img src="Administração.jpeg">
+    <span class="fechar" onclick="fecharModal('modal3', event)">&times;</span>
+    <h3>Técnico em Administração</h3>
+    <p>O curso Técnico em Administração capacita o aluno para atuar na gestão de empresas, organização de processos e planejamento estratégico. Com uma formação completa, o estudante desenvolve habilidades em finanças, recursos humanos e empreendedorismo, preparando-se para diversas oportunidades no mercado de trabalho.</p>
+    <a href="matricula.html" class="btn-roxo">Fazer Pré-Matrícula</a>
+  </div>
+</div>
+<br><br><br><br>
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <h3>Education Proz</h3>
+      <p>
+        Transformando vidas através da educação e preparando alunos para o mercado de trabalho com excelência.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Links rápidos</h4>
+      <a href="quem somos.html">Sobre nós</a>
+      <a href="index.html#cursos">Cursos</a>
+      <a href="quem somos.html#depoimentos">Depoimentos</a>
+      <a href="index.html#contato">Contato</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contato</h4>
+      <p>📍 Minas Gerais, Brasil</p>
+      <p>📞 (31) 0000-0000</p>
+      <p>✉️ contato@proseducation.com</p>
+
+      <a class="btn-whats" href="https://wa.me/5531991000704" target="_blank">
+        Falar no WhatsApp
+      </a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Redes sociais</h4>
+      <a href="https://www.instagram.com/prozeducacaobr/" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/prozeducacaobr" target="_blank">Facebook</a>
+      <a href="https://www.tiktok.com/@prozeducacaobr" target="_blank">TikTok</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Education Proz. Todos os direitos reservados.</p>
+    
+    <p class="credits">
+      Site desenvolvido por o por Kêmilly e Pedro<br>
+       e modificado por Sophia da Luz e Raquel Vieira
+    </p>
+  </div>
+</footer>
+
+
+
+
+</body>
